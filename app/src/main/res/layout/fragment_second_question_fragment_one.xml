@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.newapp.MessagePromptEndTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/question_two"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginEnd="13dp"
+        android:layout_toStartOf="@+id/imageButton14"
+        android:background="@drawable/very_satisfied"
+        android:onClick="endAppResponse1"
+        app:srcCompat="@drawable/very_satisfied" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton13"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/satisfied"
+        android:onClick="endAppResponse2"
+        app:srcCompat="@drawable/satisfied" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/imageButton14"
+        android:background="@drawable/right"
+        app:srcCompat="@drawable/right" />
+
+</RelativeLayout>
+

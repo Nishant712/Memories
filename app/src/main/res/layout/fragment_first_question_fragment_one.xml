@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.newapp.MessagePromptEnd">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/question_one"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/response1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginEnd="13dp"
+        android:layout_toStartOf="@+id/response2"
+        android:background="@drawable/very_satisfied"
+        android:onClick="secondQuestionResponse1"
+        app:srcCompat="@drawable/very_satisfied" />
+
+    <ImageButton
+        android:id="@+id/response2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/response1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/satisfied"
+        android:onClick="secondQuestionResponse2"
+        app:srcCompat="@drawable/satisfied" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/response2"
+        android:background="@drawable/right"
+        app:srcCompat="@drawable/right" />
+
+</RelativeLayout>
