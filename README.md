@@ -16,7 +16,7 @@ The purpose of this application is to create an interface to record day-to-day e
 The application loads initially into the MainActivity class, displaying the first screen where the user is prompted to begin recording.
 - - - -
 ### Recording Notes
-To compensate Android Wear from being unable to record using the general Android recording class, the MessageRecord class contains code to record an audio stream into a .PCM file. This .PCM file is then given a header, translated into a .WAV file, and the .PCM is then deleted. The application then uses the .WAV file for audio playback in the ChapterCollection class.
+To compensate Android Wear from being unable to record using the general Android recording class, the MessageRecord class contains code to record an audio stream into a .PCM file. This .PCM file is then given a header, translated into a .WAV file, and the .PCM is then deleted.
 
 - - - -
 ### Other Classes
