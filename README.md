@@ -1,4 +1,4 @@
-# SMemories
+# Memories
 ***The StoryLab at Texas A&M Android Wear Application***
 
 ### Purpose
